@@ -1,22 +1,20 @@
 # 🐍 Python Projects
 
-
 ## 📌 Description
 - This repository contains Python projects built to practice core programming concepts, automation, APIs, and database usage.
-
 - The goal is to build practical projects that demonstrate Python fundamentals, problem-solving, project structure, and Git/GitHub workflow.
 
 ## 🚧 Status
 - **Work in progress**
 
 ## 📂 Project Structure
-
+```text
 python-projects/
 ├── expense-tracker-sqlite/
 ├── weather-api-app/
 ├── .gitignore
 └── README.md
-
+```
 ## 🚀 Projects
 
 ### Expense Tracker SQLite
@@ -37,7 +35,6 @@ Skills practiced:
 - Error handling
 - User input
 
-
 ## 🛠️ Tools
 - Python
 - Git
@@ -45,9 +42,7 @@ Skills practiced:
 - PyCharm
 - SQLite
 
-
 ## 🎯 Goal
-
 To build a strong foundation in Python and improve problem-solving skills through consistent practice.
 
 
