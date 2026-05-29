@@ -11,11 +11,26 @@
 ```text
 python-projects/
 ├── expense-tracker-sqlite/
+├── task-planner/
 ├── weather-api-app/
 ├── .gitignore
 └── README.md
 ```
 ## 🚀 Projects
+
+### Task Planner Python CLI Productivity App
+A command-line Python app for creating, viewing, searching, completing, and saving tasks.
+This project demonstrates basic Python programming skills, including working with functions, lists, dictionaries, loops, conditionals, user input, and JSON file storage.
+
+Skills practiced:
+- Python functions
+- Lists and dictionaries
+- For loops and conditionals
+- User input handling
+- CRUD operations
+- Saving and loading data with JSON
+- Organizing code across multiple files
+- Basic error handling
 
 ### Expense Tracker SQLite
 A command-line expense tracker using Python and SQLite.
