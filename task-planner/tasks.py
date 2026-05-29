@@ -1,21 +1,28 @@
 
 
 def add_task(tasks):
-    print(input("Describe your task: "))
+    task_name = input("Describe your task: ")
     task = {
-        "task": tasks,
+        "task_name": task_name,
         "done": False,
     }
     tasks.append(task)
 
 def search_task(tasks):
+    if not tasks:
+        print("No tasks found.")
 
+    for index, task in enumerate(tasks):
+        status = "Done" if task["done"] else "Not done"
+        print(
+            f"{index}. {task['task_name']} | "
+            f"Status: {status}"
+        )
+
+def delete_task():
     pass
 
-def remove_task():
-    pass
-
-def complete_task():
+def mark_done_task():
     pass
 
 def view_task():
