@@ -8,13 +8,13 @@ def load_contacts():
     except FileNotFoundError:
         return {}
 
+# This creates an empty dictionary called contacts. Stores Key-value pairs. Name = Key; Details = phone, email
 contacts = load_contacts()
 
 def save_contact():
     with open("contacts.json", "w") as file:
         json.dump(contacts, file, indent=4)
 
-# This creates an empty dictionary called contacts. Stores Key-value pairs. Name = Key; Details = phone, email
 
 
 # This function  is responsible for adding a new contact
