@@ -8,7 +8,6 @@ def load_contacts():
     except FileNotFoundError:
         return {}
 
-# This creates an empty dictionary called contacts. Stores Key-value pairs. Name = Key; Details = phone, email
 contacts = load_contacts()
 
 def save_contact():
