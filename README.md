@@ -10,6 +10,7 @@
 ## 📂 Project Structure
 ```text
 python-projects/
+├── basic-apps
 ├── expense-tracker-sqlite/
 ├── task-planner/
 ├── weather-api-app/
