@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Alien",
+        "genre": "Horror",
+        "year": 1979,
+        "watched": true
+    },
+    {
+        "title": "Resident Evil",
+        "genre": "Horror",
+        "year": 2026,
+        "watched": false
+    },
+    {
+        "title": "Avengers: Doomsday",
+        "genre": "Marvel/Sci-Fi",
+        "year": 2026,
+        "watched": false
+    }
+]
